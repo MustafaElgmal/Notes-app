@@ -12,6 +12,7 @@ yargs.command({
     command:'add',
     describe:'Add new note',
     builder:{
+        
         title:{
             describe:'Note title',
             demandOption:true,
